@@ -6,43 +6,52 @@
     android:paddingTop="20dp">
 
     <EditText
+        android:id="@+id/text1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter your name"
-        android:id="@+id/text1"/>
+        />
 
     <TextView
+        android:id="@+id/text2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="20dp"
         android:paddingBottom="20dp"
         android:text="TOPPING"
-        android:layout_alignTop="@id/text1"/>
+        android:layout_below="@id/text1"
+        />
 
     <CheckBox
-        android:id="@+id/checkBox3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/checkBox1"
+        android:layout_width="177dp"
+        android:layout_height="19dp"
+        android:layout_below="@id/text2"
+        android:layout_margin="5dp"
         android:paddingLeft="20dp"
         android:text="Whipped cream"
-        android:layout_alignParentRight="true"/>
+        android:layout_alignParentRight="true" />
 
     <CheckBox
-        android:id="@+id/checkBox4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/checkBox2"
+        android:layout_width="136dp"
+        android:layout_height="21dp"
+        android:layout_below="@id/checkBox1"
+        android:layout_alignParentRight="true"
         android:paddingLeft="20dp"
-        android:text="Chocolate"
-        android:layout_alignParentRight="true"/>
+        android:text="Chocolate" />
 
     <TextView
+        android:id="@+id/text3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="20dp"
         android:text="QUANTITY"
-        android:layout_alignLeft="@id/checkBox3"/>
+        android:layout_above="@id/relative"
+        />
 
     <RelativeLayout
+        android:id="@+id/relative"
         android:layout_width="match_parent"
         android:layout_height="57dp"
         android:orientation="horizontal"
@@ -51,33 +60,28 @@
         >
 
         <Button
-            android:id="@+id/boton1"
-            android:layout_width="55dp"
+            android:layout_width="53dp"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:paddingLeft="20dp"
             android:text="-"
-
-            />
+            android:layout_toLeftOf="@id/text4"/>
 
         <TextView
-            android:id="@+id/text"
+            android:id="@+id/text4"
             android:layout_width="18dp"
             android:layout_height="wrap_content"
-            android:layout_alignRight="@id/boton1"
             android:layout_centerInParent="true"
             android:padding="5dp"
             android:text="2"
             android:textColor="#000000"
-            android:layout_below="@id/boton1"/>
+            />
 
         <Button
             android:layout_width="53dp"
             android:layout_height="wrap_content"
-            android:layout_alignRight="@id/text"
             android:layout_centerInParent="true"
             android:text="+"
-            android:layout_toRightOf="@id/text"/>
+            android:layout_toRightOf="@id/text4"/>
     </RelativeLayout>
 
     <TextView
