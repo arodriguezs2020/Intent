@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="Chocolate">Chocolate</string>
+    <string name="Whipped_cream">Whipped cream</string>
+    <string name="topping">TOPPING</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="quantity">QUANTITY</string>
+    <string name="_2">2</string>
+    <string name="order_summary">ORDER SUMMARY</string>
+    <string name="order">ORDER</string>
 </resources>
