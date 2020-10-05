@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginBotton">30dp</dimen>
+    <dimen name="marginStart">10dp</dimen>
+    <dimen name="layout_height">70dp</dimen>
+</resources>
