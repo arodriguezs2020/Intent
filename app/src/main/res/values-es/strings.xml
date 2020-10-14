@@ -8,5 +8,10 @@
     <string name="quantity">Cantidad</string>
     <string name="_2">2</string>
     <string name="order_summary">RESUMEN</string>
-    <string name="order">ORDEN</string>
+    <string name="order">PEDIR</string>
+    <string name="you_ordered">, Has pedido </string>
+    <string name="coffee">\" cafes"</string>
+    <string name="with_Chocolate">\" con Chocolate\"</string>
+    <string name="and">\" and\"</string>
+    <string name="Whipped_Cream">\" con Nata Montada\"</string>
 </resources>

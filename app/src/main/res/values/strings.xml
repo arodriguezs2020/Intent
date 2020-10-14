@@ -8,5 +8,9 @@
     <string name="_2">2</string>
     <string name="order_summary">ORDER SUMMARY</string>
     <string name="order">ORDER</string>
-    <string name="hello_text">Hola Caracola</string>
+    <string name="you_ordered">, You ordered </string>
+    <string name="coffee">\" coffees\"</string>
+    <string name="with_Chocolate">\" with Chocolate\"</string>
+    <string name="and">\" and\"</string>
+    <string name="Whipped_Cream">\" with Whipped Cream\"</string>
 </resources>
